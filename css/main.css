@@ -1,0 +1,57 @@
+body{
+    background-color: cornflowerblue;
+}
+.top-container{
+
+    padding-top: 150px;
+    color: white;
+}
+
+element.style {
+    background-image: url(it-bg01.jpg);
+}
+.animated.visible {
+    visibility: visible;
+}
+.animated.zooming {
+    -webkit-animation-duration: 14s;
+    animation-duration: 14s;
+}
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.animated {
+    visibility: hidden;
+}
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.bg-image, .bg-slideshow {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.my-font{
+/*    font-family: 'Fjalla One', sans-serif;*/
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.profile-text{
+    color: burlywood;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+.img-box{
+    box-shadow: 4px 8px 37px rgba(72, 93, 88, 1);
+}
+.my-links{
+    text-decoration: none;
+    color: snow;
+    margin-right: 50px;
+}
