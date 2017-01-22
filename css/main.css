@@ -1,5 +1,7 @@
 body{
-    background-color: cornflowerblue;
+    background: #E8CBC0; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #E8CBC0 , #636FA4); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #E8CBC0 , #636FA4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .top-container{
 
@@ -48,7 +50,11 @@ element.style {
     margin-top: -5px;
 }
 .img-box{
+    border: 6px solid white;
     box-shadow: 4px 8px 37px rgba(72, 93, 88, 1);
+    align-self: center;
+    margin: auto;
+    margin-top: -110px;
 }
 .my-links{
     text-decoration: none;
@@ -66,4 +72,21 @@ element.style {
      width: 100px;
      height: 100px;
 }
-
+.detail-box{
+background: #49a5bf;
+    padding: 10px;
+     box-shadow: 4px 8px 37px rgba(72, 93, 88, 0.5);
+    
+}
+.detail-box:hover{
+background: #4CA1AF;
+    box-shadow: 4px 8px 37px rgba(192,192,192,1);
+}
+.img{
+align-self: center;
+}
+.name-text-box{
+text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
