@@ -59,7 +59,7 @@ element.style {
 .my-links{
     text-decoration: none;
     color: snow;
-    margin-right: 50px;
+    
 }
 .center-div
 {
@@ -76,6 +76,7 @@ element.style {
 background: #49a5bf;
     padding: 10px;
      box-shadow: 4px 8px 37px rgba(72, 93, 88, 0.5);
+    margin-bottom: 20px;
     
 }
 .detail-box:hover{
@@ -89,4 +90,19 @@ align-self: center;
 text-align: center;
     padding-top: 10px;
     padding-bottom: 30px;
+}
+.floating{
+float: right;
+}
+.resume-box{
+text-align: center;
+}
+.social{
+margin: auto;
+   
+}
+.social-in{
+display: block;
+    margin: auto;
+    width: 200px;
 }
